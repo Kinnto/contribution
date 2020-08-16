@@ -10,8 +10,8 @@
 {
     "Admin": 0,                  //管理员用户ID（通常为8~9位数字）
     "Token": "",                 //Bot的Token
-    "Group_ID": 0,               //无需填写
-    "Publish_Channel_ID": ""     //频道ID（如：@channel）
+    "Group_ID": 0,               //用机器人发送消息到group，之后将此消息转发到@getidsbot,获取group ID
+    "Publish_Channel_ID": ""     //频道ID（如：@channel；或者同上，用机器人发送消息到channel，之后将此消息转发到@getidsbot,获取channel ID）
 }
 ```
 运行bot后在审稿群中输入`/setgroup`
